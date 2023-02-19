@@ -1,0 +1,99 @@
+body
+{
+    background-color: black;
+    overflow-x: hidden;
+}
+.head
+{
+    width: 105%;height: 80px;
+    color: rgb(112, 235, 196);;
+    background-color: rgb(37, 36, 35);
+    position: relative;left: -1%;top: -8px;
+}
+.logo
+{
+    position: relative;
+    top: -10px;
+   width: 100px;  color: aqua;image-resolution: 100px;
+}
+.logoname
+{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -100px;left: 100px;
+}
+.hname
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    position: relative;
+    left: 500px;top: -150px;
+}.hname:hover{color: rgb(112, 235, 196);}
+.backgroundone
+{}
+.sectionone
+{
+    color:aliceblue;
+    position: relative;
+
+}
+.sectiononeline1
+{
+    position: relative;
+    left: 3010px;
+    color:rgb(227, 227, 227);
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sectiononeline2
+{
+    position: relative;
+    left: 550px;
+    color: rgb(227, 227, 227);
+}
+.sectiononeline3
+{
+    position: relative;
+    left: 550px;
+    color: rgb(227, 227, 227);
+}
+.registritionboxone
+{
+    width: 250px;height: 50px;
+    position: relative;
+    border: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius:15px;
+    background-color: rgb(16, 106, 225);
+    left: 600px;
+}
+.registritionboxtwo
+{
+    width: 250px;height: 50px;
+    position: relative;
+    border: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius:15px;
+    background-color: rgb(112, 235, 196);
+    left: 600px;
+    top: -55px;left: 595px;
+}
+.registritionboxtwo:hover
+{
+    background-color: black;
+}
+.register
+{
+    position: relative;
+    left: 65px;
+    top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.register:hover
+{
+    color: aliceblue;
+}

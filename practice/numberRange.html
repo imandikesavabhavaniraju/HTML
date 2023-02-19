@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        body
+        {
+            background-color: black;
+        }
+        .slider
+        {
+            width: 600px;height: 100%;
+            background-color: aqua;color: aquamarine;
+            position: relative;left: 660px;top: 350px;
+        }
+        .slider:hover
+        {
+            position: relative;stroke: aqua;
+        }
+        .result
+        {
+            color: palegreen;
+            position: relative;left: 150px;top: 120px;
+            font-size: 200px;
+            width: 400px;height: 400px;
+            background-color: rgb(79, 67, 53);align-items: center;align-content: center;text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            border: 20px;border-radius: 15px;
+        }
+        .result:hover
+        {
+            background-color: blue;
+        }
+        .resultin
+        {
+            position: relative;top: 90px;
+        }
+        .resultin:hover
+        {
+            color: rgb(215, 95, 20);
+        }
+    </style>
+</head>
+<body> 
+    <input id="slider" type="range" min="0" max="100" value="0" class="slider">
+    <div  class="result"><div id="result"  class="resultin">0</div></div>
+    <script>
+        slider.oninput = showSliderValue;
+        function showSliderValue()
+        {
+            result.innerText = this.value;
+        }
+    </script>
+</body>
+</html>
