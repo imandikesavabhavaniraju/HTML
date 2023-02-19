@@ -1,0 +1,90 @@
+body
+{
+    overflow-x: hidden;overflow-y: hidden;
+}
+a
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.top
+{
+    width: 1536px;
+    height: 65px;
+    background-color: rgb(133, 36, 223);
+    position: relative;
+    bottom: 8px;
+    right: 8px;
+}
+.chat
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(240, 255, 255, 0.628);
+    position: relative;top: 25px;left: 100px;
+}
+.ch
+{
+    top: 10px;
+}
+.groups
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(240, 255, 255, 0.628);
+    position: relative;bottom: 15px;left: 210px;
+}
+.gr
+{
+    top: 10px;
+}
+.friends
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(240, 255, 255, 0.628);
+    position: relative;bottom: 55px;left: 320px;
+}
+.fr
+{
+    top: 10px;
+}
+.logo
+{
+    width: 80px;height: 75px;
+    position: relative;bottom: 120px;
+}
+.searchbar
+{
+    width: 300px;
+    height: 30px;
+    border: 10px;
+    border-radius: 6px;
+    position: relative;bottom: 180px;left: 1000px;
+    color: rgb(248, 126, 104);
+}
+.profile
+{
+    width: 40px;
+    height: 40px;
+    border: 30px;
+    border-radius: 30px;
+    position: relative;left: 660px;bottom: 229px;
+}
+.username
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;left: 660px;bottom: 254px;
+}
+.background
+{
+    width: 300px;height: 300px;
+    position: relative;left: 590px;top: 200px;
+}
+.display
+{
+    width: 1365px;height: 650px;
+    background-color: rgba(186, 186, 185, 0.432);
+    position: relative;bottom: 270px;left: 87px;
+}
