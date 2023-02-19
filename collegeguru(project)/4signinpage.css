@@ -1,0 +1,91 @@
+body
+{
+ background-image: url(backgroundi.jpg);
+ font-family: Arial, Helvetica, sans-serif;
+ position: relative;
+}
+
+     .BOX
+        {
+          width: 400px;height: 450px;
+          background-color: rgba(255, 255, 255, 0.523);
+          margin-top: 180px;
+          margin-left: 900px;
+          border: 30px;border-radius: 25px;
+         }  .heading
+                 {  
+                   text-align: center;
+                   display: flex;
+                   font-size: 40px;
+                   margin-left: 130px;
+                   position: relative;top: 10px;
+                   color: rgb(234, 128, 22);
+                 }hr{
+                     width: 375px;
+                     margin-top: -25px;
+                    }
+            .BOX li{
+                    display: flex;
+                    margin-top: 30px;
+                    margin-left: 30px;
+                    color: rgba(0, 0, 0, 0.711);
+                   }
+                    .onepassword{
+                              display: flex;
+                              position: relative;top: -10px;
+                              margin-left: 30px;
+                             }
+                    .userno{
+                          margin-left: -70px;
+                          margin-top: 20px;
+                          width: 330px;height: 35px;
+                          border-color:rgba(37, 26, 18, 0.567);border-radius: 10px;
+                          background-color: rgba(255, 255, 255, 0.523);   
+                         }
+
+                    .email{
+                           margin-left: -51px;
+                           margin-top: 20px;
+                           width: 330px;height: 35px;
+                           border-color:rgba(37, 26, 18, 0.567);border-radius: 10px;
+                           background-color: rgba(255, 255, 255, 0.523);
+                           }
+                    .password{
+                             margin-left: -85px;
+                             margin-top: 20px;
+                             width: 330px;height: 35px;
+                             border-color:rgba(37, 26, 18, 0.567);border-radius: 10px;
+                             background-color: rgba(255, 255, 255, 0.523);
+                            }
+                    .signin{
+                           width: 230px;height: 40px;
+                           border: 30px;border-radius: 10px;
+                           background-color: rgb(255, 128, 0);;
+                           margin-top: px;
+                           margin-left: 70px;
+                           font-size: large;
+                           }
+                           h4{
+                            font-size: small;
+                            text-align: center;
+                            margin-top: 15px; 
+                            color: rgb(118, 120, 123); 
+                            }
+h5{
+    font-size: x-small;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+h1{
+    color: rgb(234, 128, 22);
+    font-size: 80px;
+    margin-top: -410px;
+    padding: 100px;
+  }
+h2{
+   margin-top: -150px;
+   margin-left: 110px;
+  }
+
+   
